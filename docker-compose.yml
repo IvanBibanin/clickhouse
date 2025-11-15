@@ -16,7 +16,6 @@ services:
     volumes:
       - clickhouse_data:/var/lib/clickhouse/
       - ./ch_logs:/var/log/clickhouse-server/
-      - /Users/ivan/Downloads/dsw:/var/lib/clickhouse/user_files/dsw
     restart: no
     ulimits:
       nproc: 65535
